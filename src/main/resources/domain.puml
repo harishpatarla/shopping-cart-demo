@@ -1,0 +1,19 @@
+@startuml
+
+class ShoppingCart {
+   - products
+}
+
+'entity'
+class User {
+   - userId
+   - totalBill
+}
+
+'value object'
+class Product {
+   - unitPrice
+
+}
+
+@enduml
